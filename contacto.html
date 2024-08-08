@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body style="background-image: url('img/b73d281e7d807c979558e8e1921961b9.png'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center;">
+    <header style="background-color: rgba(76, 175, 80, 0.9); color: white; text-align: center; padding: 10px 0;">
+        <img src="img/Block Games.jpg" alt="Logo de BlockGames" style="width: 100px; height: auto; border-radius: 8px;">
+        <h1>Contacto</h1>
+    </header>
+    <nav style="background-color: rgba(51, 51, 51, 0.9); text-align: center;">
+        <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+            <li style="margin: 0 10px;"><a href="index.html" style="text-decoration: none; color: white; padding: 10px 15px; display: block;">Inicio</a></li>
+            <li style="margin: 0 10px;"><a href="quienes-somos.html" style="text-decoration: none; color: white; padding: 10px 15px; display: block;">Quienes Somos</a></li>
+            <li style="margin: 0 10px;"><a href="productos.html" style="text-decoration: none; color: white; padding: 10px 15px; display: block;">Productos</a></li>
+            <li style="margin: 0 10px;"><a href="contacto.html" style="text-decoration: none; color: white; padding: 10px 15px; display: block;">Contacto</a></li>
+            <li style="margin: 0 10px;"><a href="login.html" style="text-decoration: none; color: white; padding: 10px 15px; display: block;">Iniciar Sesión</a></li>
+            <li style="margin: 0 10px;"><a href="registro.html" style="text-decoration: none; color: white; padding: 10px 15px; display: block;">Registro</a></li>
+        </ul>
+    </nav>
+    <main style="max-width: 600px; margin: 20px auto; padding: 20px; background: rgba(255, 255, 255, 0.9); border-radius: 8px;">
+        <section>
+            <h2>Contáctame</h2>
+            <form id="contactForm" action="submit_form.html" method="post" style="display: flex; flex-direction: column;">
+                <label for="nombre" style="margin-bottom: 5px; font-weight: bold;">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required style="margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%; box-sizing: border-box;">
+                <label for="email" style="margin-bottom: 5px; font-weight: bold;">Email:</label>
+                <input type="email" id="email" name="email" required style="margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%; box-sizing: border-box;">
+                <label for="mensaje" style="margin-bottom: 5px; font-weight: bold;">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required style="margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%; box-sizing: border-box; resize: vertical;"></textarea>
+                <input type="submit" value="Enviar" style="background-color: #4CAF50; color: white; border: none; cursor: pointer; padding: 15px; border-radius: 4px;">
+            </form>
+        </section>
+    </main>
+    <section class="contact-info" style="margin-top: 20px; text-align: center;">
+        <h2 style="color: white;">Otros Medios de Contacto</h2>
+        <table class="contact-table" style="width: 100%; border-collapse: collapse; margin-top: 10px; background: rgba(255, 255, 255, 0.9); border-radius: 8px;">
+            <tr>
+                <th style="padding: 15px; text-align: center; background-color: rgba(76, 175, 80, 0.8); color: white;">Plataforma</th>
+                <th style="padding: 15px; text-align: left; background-color: rgba(76, 175, 80, 0.8); color: white;">Información de Contacto</th>
+            </tr>
+            <tr style="border-bottom: 1px solid #ddd;">
+                <td style="padding: 15px; text-align: center;"><img src="img/whatsapp-logo-png-0.png" alt="WhatsApp" style="width: 30px; height: 30px;"></td>
+                <td style="padding: 15px;"><a href="https://wa.me/1234567890" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">WhatsApp: +1 234 567 890</a></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #ddd;">
+                <td style="padding: 15px; text-align: center;"><img src="img/facebook-logo-0.png" alt="Facebook" style="width: 30px; height: 30px;"></td>
+                <td style="padding: 15px;"><a href="https://facebook.com/tuperfil" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">Facebook: TuPerfil</a></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #ddd;">
+                <td style="padding: 15px; text-align: center;"><img src="img/Gmail-Logo.png" alt="Gmail" style="width: 30px; height: 30px;"></td>
+                <td style="padding: 15px;"><a href="mailto:tuemail@gmail.com" style="color: #4CAF50; text-decoration: none; font-weight: bold;">Gmail: tuemail@gmail.com</a></td>
+            </tr>
+        </table>
+    </section>
+    <footer style="background-color: rgba(76, 175, 80, 0.9); color: white; text-align: center; padding: 10px 0;">
+        <p>&copy; Alejandro Madrid Saldarriaga</p>
+    </footer>
+</body>
+</html>
